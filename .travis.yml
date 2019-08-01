@@ -7,3 +7,5 @@ deploy:
   app: tapday4 
   api_key:
     secure: $HEROKU_API_KEY
+  on:
+    branch: master
